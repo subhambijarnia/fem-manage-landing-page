@@ -17,7 +17,7 @@
     <div class="container">
       <a href="#"><img src="images/logo.svg" alt="ManageLogo"></a>
       <nav class="primary-navigation">
-        <ul role="list" class="nav-list">
+        <ul aria-label="Primary" role="list" class="nav-list">
           <li><a href="#">Pricing</a></li>
           <li><a href="#">Product</a></li>
           <li><a href="#">About Us</a></li>
@@ -30,7 +30,7 @@
   </header>
 
   <main>
-    <section>
+    <section class="padding-block-900">
       <div class="container">
         <div class="even-column">
           <div>
@@ -53,7 +53,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="padding-block-900">
       <div class="container">
         <div class="even-column">
           <div>
@@ -98,7 +98,7 @@
       </div>
     </section>
 
-    <section class="carousel">
+    <section class="carousel | padding-block-700">
       <h2 class="fs-secondary-heading">
         What they’ve said
       </h2>
@@ -106,7 +106,7 @@
       <button class="buittn">Get Started</button>
     </section>
 
-    <section class="cta | bg-primary-400 text-neatral-100">
+    <section class="cta | padding-block-700 bg-accent-400 text-neatral-100">
       <div class="container">
         <div class="even-columns">
           <div>
@@ -120,7 +120,7 @@
     </section>
   </main>
 
-  <footer class="bg-neutral-900 text-neatral-100">
+  <footer class="padding-block-700 bg-neutral-900 text-neatral-100">
     <div class="container">
       <div class="even-columns">
         <div>
@@ -135,18 +135,24 @@
         </div>
         <div>
           <nav class="footer-nav">
-            <ul role="list">
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
+            <ul aria-label="Footer" role="list">
+              <li><a href="">Home</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Community</a></li>
+              <li><a href="">Privacy Policy</a></li>
             </ul>
           </nav>
         </div>
-        <div></div>
+        <div>
+          <form action="">
+            <input type="email">
+            <button class="button">Go</button>
+            <p>Copyright 2020. All Rights Reserved</p>
+          </form>
+        </div>
       </div>
     </div>
   </footer>
